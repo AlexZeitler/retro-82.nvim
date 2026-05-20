@@ -17,8 +17,8 @@ function M.get(c)
     CursorLine   = { bg = c.bg_alt },
     CursorColumn = { bg = c.bg_alt },
     ColorColumn  = { bg = c.bg_alt },
-    Visual       = { bg = c.bg_alt },
-    VisualNOS    = { bg = c.bg_alt },
+    Visual       = { fg = c.sel_fg, bg = c.sel_bg },
+    VisualNOS    = { fg = c.sel_fg, bg = c.sel_bg },
 
     LineNr       = { fg = c.bg_alt, bg = c.bg },
     CursorLineNr = { fg = c.fg, bg = c.bg, bold = true },
