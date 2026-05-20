@@ -1,7 +1,7 @@
 # retro-82.nvim
 
-Retro-futuristic Neovim colorscheme — deep navy base with warm amber accents and
-cyan/teal support tones. Port of the
+Retro-futuristic Neovim colorscheme with a deep navy base, warm amber accents,
+and cyan/teal support tones. Port of the
 [omarchy-retro-82-theme](https://github.com/OldJobobo/omarchy-retro-82-theme)
 palette for Neovim.
 
@@ -75,11 +75,12 @@ colorscheme retro-82
 
 ## Supported plugins
 
-Core editor, Treesitter (`@…` captures), LSP semantic tokens, diagnostics, diff,
-GitSigns, Telescope, nvim-tree, neo-tree, nvim-cmp, blink.cmp, which-key,
+Core editor, Treesitter (`@...` captures), LSP semantic tokens, diagnostics,
+diff, GitSigns, Telescope, nvim-tree, neo-tree, nvim-cmp, blink.cmp, which-key,
 nvim-notify, mini.statusline, indent-blankline, Lazy.
 
 ## Credits
 
-Palette and design: [@OldJobobo](https://github.com/OldJobobo) — see
-[omarchy-retro-82-theme](https://github.com/OldJobobo/omarchy-retro-82-theme).
+Palette and design by [@OldJobobo](https://github.com/OldJobobo) (see
+[omarchy-retro-82-theme](https://github.com/OldJobobo/omarchy-retro-82-theme)).
+Palette feedback by [@niraletter](https://github.com/niraletter).
