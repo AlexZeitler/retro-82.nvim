@@ -5,7 +5,8 @@ local M = {}
 M.colors = {
   -- Base
   bg          = "#00172e", -- deep navy
-  bg_alt      = "#134e5a", -- lifted surface / muted
+  bg_alt      = "#134e5a", -- lifted surface / muted decoration
+  comment     = "#5a8a94", -- comment text (legible against bg)
   fg          = "#f6dcac", -- cream
   fg_dim      = "#a7c9c6", -- muted cyan-cream
   cursor      = "#f6dcac",

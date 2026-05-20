@@ -74,7 +74,7 @@ function M.get(c)
     SpellLocal   = { sp = c.teal, undercurl = true },
 
     -- ===== Legacy syntax =====
-    Comment      = { fg = c.bg_alt, italic = true },
+    Comment      = { fg = c.comment, italic = true },
 
     Constant     = { fg = c.red },
     String       = { fg = c.teal },
@@ -119,7 +119,7 @@ function M.get(c)
 
     -- ===== Treesitter =====
     ["@comment"]              = { link = "Comment" },
-    ["@comment.documentation"] = { fg = c.bg_alt, italic = true },
+    ["@comment.documentation"] = { fg = c.comment, italic = true },
     ["@comment.todo"]         = { fg = c.bg, bg = c.orange, bold = true },
     ["@comment.warning"]      = { fg = c.bg, bg = c.orange_dark, bold = true },
     ["@comment.error"]        = { fg = c.bg, bg = c.red, bold = true },
@@ -279,8 +279,8 @@ function M.get(c)
     LspReferenceRead  = { bg = c.bg_alt },
     LspReferenceWrite = { bg = c.bg_alt },
     LspSignatureActiveParameter = { fg = c.orange, bold = true },
-    LspCodeLens       = { fg = c.bg_alt, italic = true },
-    LspInlayHint      = { fg = c.bg_alt, bg = c.bg, italic = true },
+    LspCodeLens       = { fg = c.comment, italic = true },
+    LspInlayHint      = { fg = c.comment, bg = c.bg, italic = true },
 
     -- ===== Diff =====
     DiffAdd     = { bg = "#0a3a44" },
@@ -302,7 +302,7 @@ function M.get(c)
     GitSignsAddLn        = { bg = "#0a3a44" },
     GitSignsChangeLn     = { bg = "#1a3a55" },
     GitSignsDeleteLn     = { bg = "#3a1a1a" },
-    GitSignsCurrentLineBlame = { fg = c.bg_alt, italic = true },
+    GitSignsCurrentLineBlame = { fg = c.comment, italic = true },
 
     -- ===== Telescope =====
     TelescopeNormal         = { fg = c.fg, bg = c.bg },
